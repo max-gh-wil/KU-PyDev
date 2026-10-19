@@ -11,3 +11,8 @@ EUR_RATE = 4.25   # 1 EUR = 4.25 PLN
 USD_RATE = 3.80   # 1 USD = 3.80 PLN
 
 # TODO: Twój kod poniżej
+print("Podaj kwotę w PLN")
+pln = float(input())
+euro = pln / 4.25
+usd = pln / 3.80
+print(f"Twoja kwota w Euro to {euro:.2f} a w Dolarach {usd:.2f}")

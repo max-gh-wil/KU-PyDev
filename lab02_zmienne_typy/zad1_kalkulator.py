@@ -13,3 +13,14 @@
 # Załóż, że druga liczba nie jest zerem (obsługę zera dodasz w labie 03).
 
 # TODO: Twój kod poniżej
+print("podaj liczbę") 
+liczba1 = float(input())
+print("podaj kolejną liczbę")
+liczba2 = float(input())
+print(liczba1 + liczba2)
+print(liczba1 - liczba2)
+print(liczba1 * liczba2)
+print(liczba1 / liczba2)
+print(liczba1 // liczba2)
+print(liczba1 % liczba2)
+print(liczba1 ** liczba2)

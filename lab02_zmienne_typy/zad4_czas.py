@@ -10,3 +10,9 @@
 #   - 1 h = 3600 s, 1 min = 60 s
 
 # TODO: Twój kod poniżej
+print("Podaj liczbę sekund")
+sek = int(input())
+godz = sek // 60 // 60 
+minuty = ((sek / 60 / 60) - godz) * 60
+sec = minuty / 60 - int(minuty) /60 
+print(f"{godz} h {minuty:.0f} min {sec:.0f} s")
