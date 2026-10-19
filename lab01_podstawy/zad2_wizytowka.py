@@ -14,3 +14,10 @@
 CURRENT_YEAR = 2026
 
 # TODO: Twój kod poniżej
+print("Jak masz na imię?")
+imie = str(input())
+print("Jak masz na nazwisko?")
+nazwisko = str(input())
+print("W którym roku się urodziłeś/aś?")
+rok_ur = int(input())
+print(f"Nazywam się {imie} {nazwisko} i w 2026 kończę 20 lat")

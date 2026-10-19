@@ -10,3 +10,16 @@
 # w labie 03. Spróbuj już teraz – składnię znajdziesz na slajdach.
 
 # TODO: Twój kod poniżej
+print("Podaj swoją wagę w kg")
+masa = float(input())
+print("Podaj swój wzrost w m")
+wzrost = float(input())
+bmi = masa / wzrost ** 2
+if bmi < 18.5:
+    print("niedowaga")
+elif bmi < 25:
+    print("waga prawidłowa")
+elif bmi < 30:
+    print("nadwaga")
+elif bmi >= 30:
+    print("otyłość")
