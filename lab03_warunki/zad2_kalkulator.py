@@ -8,3 +8,22 @@
 #   - inny operator         -> "Nieznany operator"
 
 # TODO: Twój kod poniżej
+print("Podaj liczbę")
+liczba = int(input())
+print("Podaj operator: +, -, *, /")
+operator = input()
+print("Podaj drugą liczbę")
+druga = int(input())
+if operator not in ["+", "-", "*", "/"]:
+    print("nieznany operator")
+if operator == "+":
+    print(liczba + druga)
+if operator == "-":
+    print(liczba - druga)
+if operator == "*":
+    print(liczba * druga)
+if operator == "/":
+    if druga == 0:
+        print("Nie można dzielić przez zero!")
+    else:
+        print(liczba / druga)
